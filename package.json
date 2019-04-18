@@ -27,6 +27,11 @@
   },
   "homepage": "https://github.com/Matty1515/react-calculator-app#readme",
   "devDependencies": {
-    "gulp": "^4.0.0"
+    "@babel/core": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
+    "gulp": "^4.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-webserver": "^0.9.1"
   }
 }

@@ -41,35 +41,35 @@ class Calculator extends React.Component {
   }
   render() {
     return (
-      <div class="container">
-        <div class="output">
-          <span class="output-text">{this.state.str}</span>
+      <div className="container">
+        <div className="output">
+          <span className="output-text">{this.state.str}</span>
         </div>
 
-        <div id="clear" onClick={this.selectClear} class="button clear">C</div>
-        <div id="(" onClick={this.selectNumber} class="button open-bracket">(</div>
-        <div id=")" onClick={this.selectNumber} class="button close-bracket">)</div>
-        <div id=" / " onClick={this.selectNumber} class="button divide">÷</div>
+        <div id="clear" onClick={this.selectClear} className="button clear">C</div>
+        <div id="(" onClick={this.selectNumber} className="button open-bracket">(</div>
+        <div id=")" onClick={this.selectNumber} className="button close-bracket">)</div>
+        <div id=" / " onClick={this.selectNumber} className="button divide">÷</div>
 
-        <div id="7" onClick={this.selectNumber} class="button seven">7</div>
-        <div id="8" onClick={this.selectNumber} class="button eight">8</div>
-        <div id="9" onClick={this.selectNumber} class="button nine">9</div>
-        <div id=" * " onClick={this.selectNumber} class="button multiply">x</div>
+        <div id="7" onClick={this.selectNumber} className="button seven">7</div>
+        <div id="8" onClick={this.selectNumber} className="button eight">8</div>
+        <div id="9" onClick={this.selectNumber} className="button nine">9</div>
+        <div id=" * " onClick={this.selectNumber} className="button multiply">x</div>
 
-        <div id="4" onClick={this.selectNumber} class="button four">4</div>
-        <div id="5" onClick={this.selectNumber} class="button five">5</div>
-        <div id="6" onClick={this.selectNumber} class="button six">6</div>
-        <div id=" - " onClick={this.selectNumber} class="button minus">-</div>
+        <div id="4" onClick={this.selectNumber} className="button four">4</div>
+        <div id="5" onClick={this.selectNumber} className="button five">5</div>
+        <div id="6" onClick={this.selectNumber} className="button six">6</div>
+        <div id=" - " onClick={this.selectNumber} className="button minus">-</div>
 
-        <div id="1" onClick={this.selectNumber} class="button one">1</div>
-        <div id="2" onClick={this.selectNumber} class="button two">2</div>
-        <div id="3" onClick={this.selectNumber} class="button three">3</div>
-        <div id=" + " onClick={this.selectNumber} class="button plus">+</div>
+        <div id="1" onClick={this.selectNumber} className="button one">1</div>
+        <div id="2" onClick={this.selectNumber} className="button two">2</div>
+        <div id="3" onClick={this.selectNumber} className="button three">3</div>
+        <div id=" + " onClick={this.selectNumber} className="button plus">+</div>
 
-        <div id="0" onClick={this.selectNumber} class="button zero">0</div>
-        <div id="." onClick={this.selectNumber} class="button dot">.</div>
-        <div id="nothing" class="button nothing"> </div>
-        <div id="equals" onClick={this.selectEquals} class="button equals">=</div>
+        <div id="0" onClick={this.selectNumber} className="button zero">0</div>
+        <div id="." onClick={this.selectNumber} className="button dot">.</div>
+        <div id="nothing" className="button nothing"> </div>
+        <div id="equals" onClick={this.selectEquals} className="button equals">=</div>
       </div>
     )
   }
