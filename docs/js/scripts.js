@@ -1,5 +1,5 @@
-// use the concat() method to easily solve the selectNumber() problem: https://www.w3schools.com/jsref/jsref_concat_string.asp
-// i would do it now but tbh i can't really be bothered
+// Use the concat() method to easily solve the selectNumber() problem: https://www.w3schools.com/jsref/jsref_concat_string.asp
+// I would do it now but tbh I can't really be bothered - Same here mate, I still can't be bothered
 class Calculator extends React.Component {
   constructor(props) {
     super(props);
